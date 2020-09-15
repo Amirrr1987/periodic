@@ -20,7 +20,8 @@ export default {
   },
   mounted () {
     axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
+      // .get('https://api.coindesk.com/v1/bpi/currentprice.json')
+      .get('https://raw.githubusercontent.com/Bowserinator/Periodic-Table-JSON/master/PeriodicTableJSON.json')
       .then(response => (this.info = response))
   }
 }
