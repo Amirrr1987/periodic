@@ -1,6 +1,8 @@
 <template>
   <body id="app">
-    
+    <section class="periodic">
+      
+    </section>
   </body>
 </template>
 
